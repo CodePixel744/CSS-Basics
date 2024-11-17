@@ -25,11 +25,13 @@ section {
 
 header {
     /* padding: 50px; */
+    text-align: center;
     background: #FFE600;
     color: #000;
 }
 
 .section-one {
+    text-align: center;
     border: 1px solid blue;
     padding: 10px;
     background: black;
@@ -37,6 +39,7 @@ header {
 }
 
 .section-two {
+    text-align: center;
     margin: 0;
     border: 1px solid green;
     padding: 10px;
@@ -44,7 +47,7 @@ header {
 }
 
 /* button so display inline block */
-.section-one .button {
+.button-black {
     display: inline-block;
     padding: 12px 25px;
     background: #FFE600;
@@ -53,20 +56,21 @@ header {
     text-decoration: none;
 }
 
-.section-one .button:hover {
+.button-black:hover {
     background: white;
 }
 
 /* top bottom right left rule */
-.section-two .button {
+.button-yellow {
     padding: 12px 25px;
     display: inline-block;
     background-color: #000;
     color: #FFE600;
     text-decoration: none;
+    font-weight: bold;
 }
 
-.section-two .button:hover {
+.button-yellow:hover {
     background: #FFE600;
     color: black;
 }
