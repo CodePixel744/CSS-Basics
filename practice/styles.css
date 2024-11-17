@@ -1,0 +1,43 @@
+h1 {
+    font-size: 48px;
+    color: blue;
+    text-align: center;
+    margin: 45px 10px 45px 10px;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+    font-style: normal;
+    font-size: 32px;
+    color: green;
+    margin: 0px 10px 0px 10px;
+}
+
+
+a {
+    color: orange;
+    font-weight: bold;
+}
+
+a:hover {
+    color: aqua;
+    font-weight: bold;
+}
+
+a:focus {
+    color: violet;
+    font-weight: bold;
+}
+
+.blog-post {
+    background: #f1f1f1;
+    width: 450px;
+    padding: 20px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.read-more {
+    margin: 0;
+}

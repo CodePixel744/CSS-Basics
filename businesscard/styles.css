@@ -6,8 +6,8 @@ body {
 
 .card {
     border: 1px dotted blue;
-    width: 400px;
-    height: 220px;
+    width: 450px;
+    height: 250px;
     margin: 10px auto 0 0px;
     float: left;
     padding: 20px;
